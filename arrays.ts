@@ -11,8 +11,8 @@ const footballTeams: Array<string> = ["Liverpool", "Man Utd", "Everton", "Arsena
 
 // this is creating an object literal type that can be used
 type User = {
-    name: string
-    isActive: boolean
+    name: string,
+    isActive: boolean;
 }
 
 // this is then creating an array of the objects
